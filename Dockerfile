@@ -64,6 +64,7 @@ ADD default.conf /etc/nginx/conf.d/
 
 # Remove Build Dependencies
 RUN apk del -f .build-deps
+
 # Setup Working Dir
 WORKDIR /var/www/html
 
